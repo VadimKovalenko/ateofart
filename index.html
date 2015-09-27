@@ -1,0 +1,268 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ate of Art</title>
+	<link href = "css/style.css" rel="stylesheet"/>
+	<link href = "css/fonts.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="css/media.css" />
+	<style>
+		<!--@font-face {	 
+			font-family: engravers-gothic-bt;
+			src: local(engravers-gothic-bt),
+			url(fonts/engravers-gothic-bt.ttf);
+		}
+		@font-face {
+			font-family: HelveticaNeueCyr-Medium;
+			src: local(HelveticaNeueCyr-Medium),	
+			url(fonts/HelveticaNeueCyr-Medium.otf);
+		}
+
+		@font-face {
+			font-family: HelveticaNeue-Thin;
+			src: local(HelveticaNeue-Thin),	
+			url(fonts/HelveticaNeue-Thin.otf);
+		}
+
+		@font-face {
+			font-family: HelveticaNeue-Light;
+			src: local(HelveticaNeue-Light),	
+			url(fonts/HelveticaNeue-Light.otf);
+		}-->
+	</style>
+	<link rel="stylesheet" href="css/feature-carousel.css" charset="utf-8" />
+    <script src="scripts/jquery-1.7.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="scripts/jquery.featureCarousel.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+      $(document).ready(function() {
+        var carousel = $("#carousel").featureCarousel({
+          // include options like this:
+          // (use quotes only for string values, and no trailing comma after last option)
+          // option: value,
+          // option: value
+        });
+
+        $("#but_prev").click(function () {
+          carousel.prev();
+        });
+        $("#but_pause").click(function () {
+          carousel.pause();
+        });
+        $("#but_start").click(function () {
+          carousel.start();
+        });
+        $("#but_next").click(function () {
+          carousel.next();
+        });
+      });
+    </script>
+	<script>
+		$(function(){
+				var stickyRibbonTop = $('#stickyribbon').offset().top;
+				  
+				$(window).scroll(function(){
+						if( $(window).scrollTop() > stickyRibbonTop ) {
+								$('#stickyribbon').css({position: 'fixed', top: '0px'});
+						} else {
+								$('#stickyribbon').css({position: 'absolute', top: '28px'});
+						}
+				});
+		});
+	</script>
+	<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</head>
+<body>
+<div id="fb-root"></div>
+	<div class = "main-wrapper">
+		<header>
+			<div class = "header-top">
+				<div class = "header-top-data">
+					<p>Klantenservise</p>
+					<p>Contact</p>
+					<p>Login B2B</p>
+				</div>
+			</div>
+			<div id = "stickyribbon">
+				<div class = "header-center">
+					<div class = "header-center-inner">
+					<p class = "country">Taal: Nederlands <img src = "images/small_arrow_3.png"/></p>
+					<div class = "header-center-img-container">
+					</div>
+					<p class = "login">Welkom Henk Dikjes &nbsp &nbsp &nbsp Mijn account</p>
+					<p class = "wishlist">Wishlist &nbsp <img src = "images/busket.png"/>  2 items &nbsp € 209.90</p>
+					</div>
+				</div>
+				<div class = "nav-container">
+				<nav class = "header-nav">
+					<a href = "#">Webshop</a> <a href = "#">Lookbook</a>
+					<a href = "#">Over ate of art</a> <a href = "#">Racing heritage</a>
+					<a href = "#">Stores</a>
+					<img src = "images/search_icon.png"/>
+				</nav>
+				</div>
+			</div><!--end of sticky-->
+		</header>
+		<section class = "center">
+		<div class = "center-wrapper">
+		<nav class = "top-center-nav">
+			<a href = "#">Home </a><img src = "images/small_arrow.png" alt = "arrow"/>
+			<a href = "#">Lookbook </a><img src = "images/small_arrow.png" alt = "arrow"/>
+			<a href = "#">Early spring 2014 </a>
+		</nav>
+		<p class = "backward"><img src = "images/small_arrow_2.png" alt = "small-arrow"/> Terug naar overzicht</p>
+		<div class="carousel-container">
+			<div class = "slider-wrapper">
+			  <div id="carousel">
+				<div class="carousel-feature">
+				  <a href="#"><img class="carousel-image" alt="Image Caption" src="images/item_1.png"></a>
+				  <div class="carousel-caption">
+					<h2>Model 1</h2>
+					<h3>Early Spring 2014</h3>
+					<hr/>
+					<p><b>Trui</b> - € 99.95</p>
+					<p><b>Overhemd</b> - € 99.95</p>
+					<p><b>Broek</b> - € 99.95</p>
+					<input type = "button" value = "SHOP THE LOOK" class = "shop-button"/>
+					<a href = "#"><img src = "images/delete.png"/>  Delen  <img src = "images/small_arrow_4.png"/></a>
+					<br/>
+					<a href = "#"><img src = "images/print.png"/>  Printen  <img src = "images/small_arrow_4.png"/></a>
+				  </div>
+				</div>
+				<div class="carousel-feature">
+				  <a href="#"><img class="carousel-image" alt="Image Caption" src="images/item_2.png"></a>
+				  <div class="carousel-caption">
+					<h2>Model 2</h2>
+					<h3>Early Spring 2014</h3>
+					<hr/>
+					<p><b>Trui</b> - € 99.95</p>
+					<p><b>Overhemd</b> - € 99.95</p>
+					<p><b>Broek</b> - € 99.95</p>
+					<input type = "button" value = "SHOP THE LOOK" class = "shop-button"/>
+					<a href = "#"><img src = "images/delete.png"/>  Delen  <img src = "images/small_arrow_4.png"/></a>
+					<br/>
+					<a href = "#"><img src = "images/print.png"/>  Printen  <img src = "images/small_arrow_4.png"/></a>
+				  </div>
+				</div>
+				<div class="carousel-feature">
+				  <a href="#"><img class="carousel-image" alt="Image Caption" src="images/item_3.png"></a>
+				  <div class="carousel-caption">
+					<h2>Model 3</h2>
+					<h3>Early Spring 2014</h3>
+					<hr/>
+					<p><b>Trui</b> - € 99.95</p>
+					<p><b>Overhemd</b> - € 99.95</p>
+					<p><b>Broek</b> - € 99.95</p>
+					<input type = "button" value = "SHOP THE LOOK" class = "shop-button"/>
+					<a href = "#"><img src = "images/delete.png"/>  Delen  <img src = "images/small_arrow_4.png"/></a>
+					<br/>
+					<a href = "#"><img src = "images/print.png"/>  Printen  <img src = "images/small_arrow_4.png"/></a>
+				  </div>
+				</div>
+			  </div>  
+		  <div id="carousel-left"><img src="images/arrow_left.png" alt = "arrow-left"/></div>
+		  <div id="carousel-right"><img src="images/arrow_right.png" alt = "arrow-right"/></div>
+		</div>
+	</div>
+		</section>
+		<nav class = "bottom-center-nav">
+				<a href = "#">Voor</a><span class = "separate-line"> | </span><a href = "#">UUR Besteld, Dezelfde Dag Verstuurd</a><span class = "separate-line"> | </span>
+				<a href = "#">Gratis Retourneren</a><span class = "separate-line"> | </span><a href = "#">Niet Goed Geld Terug</a><span class = "separate-line"> | </span>
+				<a href = "#">Afhalen in de Winkel</a>
+		</nav>
+		<section class = "bottom">
+			<div class = "bottom-center">
+			<aside>
+				<ul class = "bottom-list"><h2>Service</h2>
+				<li><a href = "#">Faq</a></li>
+				<li><a href = "#">Bestellen</a></li>
+				<li><a href = "#">Betalen</a></li>
+				<li><a href = "#">Bezorgen</a></li>
+				<li><a href = "#">retouneren</a></li>
+				</ul>
+				<ul class = "bottom-list"><h2>Ate of Art</h2></li>
+				<li><a href = "#">Over ons</a></li>
+				<li><a href = "#">Hoofdkantoor</a></li>
+				<li><a href = "#">Racing heritage</a></li>
+				<li><a href = "#">Vacatures</a></li>
+				<li><a href = "#">Social responsability</a></li>
+				</ul>
+			</aside>
+			<section class = "bottom-center-section">
+			<h2>Uw Dichtstbjzijnde <br/> ate of art store</h2>
+			<p>Inspiration Store Rotterdam</p>
+			<p>Meent 120</p>
+			<p>3011 JS Rotterdam</p>
+			<p>Tel: +31(0)10 72 00 980</p>
+			<h2>Klantbeoordeling</h2>
+			<img src = "images/stars.png" alt = "stars"/>
+			<p>9.0 van 10</p>
+			<p>999 beoordelingen</p>
+			<img src = "images/feedback_company.png" alt = "feedback_company"/>
+			</section>
+			<section class  = "bottom-right-section">
+				<div class = "bottom-right-section-social">
+				<h2>Social</h2>
+				<ul>
+					<li><img src = "images/facebook.png" alt = "socia"/></li>
+					<!--<div class="fb-share-button" data-href="file:///D:/ISM-task/index-desktop.html" data-width="30" data-layout="icon"></div>-->
+					<!--<a href="http://www.facebook.com/plugins/share_button.php?href=file%3A%2F%2F%2FD%3A%2FISM-task%2Findex-desktop.html&width=30&layout=icon" target="_blank">
+					  Share on Facebook
+					</a>-->
+					
+					<li><img src = "images/twitter.png" alt = "socia"/></li>
+					<li><img src = "images/pinterst.png" alt = "socia"/></li>
+					<li><img src = "images/youtube.png" alt = "socia"/></li>
+				</ul>
+				</div>
+				<div class = "search">
+				<h2>Blijf op de hoogte</h2>
+				<p>Fusce sed salpen nec sapien rhoncus venenatis.
+					Integer tempus scelerisque luctus.
+				</p>				
+				<form class = "search-on-site">
+				<input type="text"/>
+				<input class = "search-button" type = "submit" value = ""/>
+				</form>
+				</div>
+				</div>
+			</section>
+			</div>
+		</section>
+		</div>
+		<footer>
+			<div class = "copyright">
+				<div class = "copyright-inner">
+					<p>Copyright ate of art 2013</p>
+					<nav class = "footer-nav">
+						<a href = "#">Sitemap </a>
+						<a href = "#">Privacy Policy </a>
+						<a href = "#">Cookies </a>
+						<a href = "#">Klantenservice </a>
+						<a href = "#">Algemene voorwaarden </a>
+					</nav>
+				</div>
+			</div>
+			<div class = "description">
+				<div class = "envelope">
+				</div>
+				<div class = "description-text">
+					Winkelwaarborg voorwaarden lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+					eu porta libero. Proin ut eros eu eros ultrices lacinia. Suspendisse viverra fringilla mauris 
+					quis pretium. Suspendisse potenti. In hac habitasse platea dictumst. Integer vitae risus diam.
+					Fusce scelerisque gravida eros a dapibus. Vestibulum dignissim imperdiet adipiscing. Nunc quis
+					rutrum tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+					turpis egestas. Fusce pellentesque vitae ligula vel dictum. Phasellus euismod sagittis justo ac rutrum.
+				</div>
+				<div class = "paypal">
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
