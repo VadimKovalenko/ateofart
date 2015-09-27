@@ -1,0 +1,86 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	#carousel-right {
+		left: 850px;
+	}
+	#carousel {
+		width:1024px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.nav-container {
+	background-color:#f9f9f9;
+	}	
+	.bottom-center-nav {
+		height: 58px;
+	}
+	.carousel-container {
+		  width: 760px;
+	}
+	#carousel-right {
+		left: 642px;
+	}
+	.bottom {
+		top: 910px;
+	}
+	footer {
+		top: 1263px;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	#carousel-right {
+		left: 850px;
+	}
+}
+
+ /* Custom Wide Screens */
+@media (min-height : 720px) and (min-width : 1400px) {
+
+}

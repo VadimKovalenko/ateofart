@@ -1,0 +1,440 @@
+p {
+	font-family: engraversgothic_btregular;
+}
+
+h2 {
+	font-family: engraversgothic_btregular;
+	font-size: 12px;
+	color: #b2d4dc;
+	text-transform: uppercase;
+	margin-top: 24px;
+}
+
+hr {
+	border: none;
+	width: 71px;
+	background-color: #ff6600;
+	color: #ff6600;
+	height: 1px;
+	margin-left: 0px;
+	margin-bottom: 15px;
+}
+
+h3 {
+	font-family: HelveticaNeue-Light;
+	color: #ff6600;
+	font-size: 18px;
+	margin-top: 10px;
+	font-weight: 300;
+}
+
+.main-wrapper {
+	*border: 1px solid red;
+	*margin: 0 0 0 -8px;
+	*width: 100%;
+	*margin: 0 auto;
+	*width: 1024px;
+}
+
+header {
+	position: absolute;
+	top: 0px;
+	margin: 0 0 0 -8px;
+	width: 100%;
+	height: 180px;	
+}
+
+.header-top {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 28px;
+	color: white;
+	*margin: 0 0 0 -8px;
+	background-color: #2a3a48;
+	z-index: 15;
+}
+
+.header-top-data{
+	margin: 0 auto;
+	*width: 1024px;
+	text-align: center;
+}
+
+.header-top-data>p {
+	display: inline-block;
+	margin: 5px 8px 0px 8px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+#stickyribbon {
+	position: absolute;
+	top: 28px;
+	height: 153px;
+	width: 100%;
+	z-index: 10;
+	background-color: white;
+}
+
+.header-center {
+	position: absolute;
+	height: 109px;
+	height: 109px;
+	border-bottom: 1px solid #ccc;
+	*margin: 0 0 0 -8px;
+	width: 100%;
+	text-align: center;
+	z-index: 10;
+}
+
+.header-center-inner {
+	margin: 0 auto;
+	width: 1024px;
+	*border: 1px solid black;
+	height: 109px;
+}
+
+.header-center-inner>p {
+	text-transform: uppercase;
+	color: #999;
+	font-weight: normal;
+	font-family: engraversgothic_btregular;	
+}
+
+.country {
+	text-align: left;
+	float: left;
+	width: 30%;	
+}
+
+.login {
+	width: 30%;
+	float: right;
+}
+
+.wishlist {
+	text-align: right;
+}
+
+.header-center-img-container {
+	position: relative;
+	bottom: 6px;
+	background: url(../images/logo.png) center no-repeat;
+	width: 40%;
+	height: 82px;
+	float: left;
+}
+
+.nav-container {
+	position: absolute;
+	top: 110px;
+	height: 43px;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	z-index: 10;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.header-nav {
+	width: 1024px;
+	font-family: engraversgothic_btregular;
+	text-align: center;
+	color: #999;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+.header-nav>a {
+	position: relative;
+	margin-right: 6px;
+	margin-left: 6px;
+	top: 12px;
+	color: #999;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.header-nav>img {
+	float: right;
+	margin-top: 14px;
+	cursor: pointer;
+}
+
+.center-wrapper {
+	width: 1024px;
+	height: 1213px;
+	margin: 0 auto;
+	*border: 1px solid red;
+}
+
+.shop-button {
+	width: 157px;
+	height: 43px;
+	background-color: #ff6600;
+	margin-top: 15px;
+	color: white;
+	border: none;
+	font-family: engraversgothic_btregular;
+	font-size: 14px;
+	background-image: url(../images/search_arrow.png);
+	background-repeat: no-repeat;
+	background-position: 138px 16px;
+	cursor: pointer;
+}
+
+.center {
+	position: absolute;
+	top: 182px;
+	height: 670px;
+	width: 100%;
+	margin: 0 0 0 -8px;
+}
+
+.top-center-nav {
+	position: relative;
+	margin-top: 16px;
+	*margin: 0 auto;
+}
+
+.top-center-nav>a {
+	cursor: pointer;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: engraversgothic_btregular;
+	font-size: 14px;
+	font-weight: normal;
+	color: #999;
+}
+
+.top-center-nav>img {
+	vertical-align: middle;
+}
+
+.bottom-center-nav {
+	position: absolute;
+	top: 852px;
+	width: 100%;
+	margin: 0 0 0 -8px;
+	height: 40px;
+	text-align: center;
+	font-family: engraversgothic_btregular;	
+	background-color: #ff6600;
+}
+
+.backward {
+	text-transform: uppercase;
+	color: #999;
+	font-weight: normal;
+}
+
+.bottom-center-nav>a {
+	position: relative;
+	margin-right: 6px;
+	margin-left: 6px;
+	top: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.separate-line {
+	position: relative;
+	top: 10px;
+	color: white;
+}
+
+.bottom {
+	position: absolute;
+	top: 892px;
+	width: 100%;
+	margin: 0 0 0 -8px;
+	height: 353px;
+	background-color: #2a3a48;
+}
+
+.carousel-container {
+	margin: 0 auto;
+}
+
+.bottom-center {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+aside{
+	position: relative;
+	width: 205px;
+	height: 310px;
+	*border: 1px solid white;
+	float: left;
+}
+
+
+.bottom-list {
+	padding-left: 10px;
+}
+
+aside li {
+	list-style: none;
+}
+
+aside a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding-left: 12px;
+	text-transform: uppercase;
+	font-family: engraversgothic_btregular;
+	font-size: 12px;
+	padding-left: 0px;	
+	padding-top: 8px;
+}
+
+.search-button {
+	width: 36px;
+	height: 36px;
+	background: url(../images/search_arrow.png) center no-repeat;
+	background-color: #ff6600;
+	border: none;
+	cursor: pointer;
+}
+
+.bottom-center-section {
+	*border: 1px solid green;
+	width: 301px;
+	height: 310px;
+	position: relative;
+	float: left;
+}
+
+.bottom-center-section>p, .search>p{
+	font-family: helveticaneuecyrmedium;
+	color: white;
+	font-size: 11px;
+}
+.bottom-right-section {
+	float: right;
+	width: 495px;
+	padding-right: 12px;
+	height: 199px;
+	*border: 1px solid orange;	
+}
+
+.search {
+	*border: 1px solid white;
+	width: 306px;
+	height: 131px;
+	float: right;
+}
+
+.search-on-site {
+	*border: 1px solid orange;
+	height: 36px;
+	width: 306px;
+	float: right;
+}
+
+.bottom-right-section-social {
+	width: 101px;
+	height: 199px;
+	*border: 1px solid red;
+	float: left;
+}
+
+.bottom-right-section-social>ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+input[type="text"] {
+	width: 270px;
+	height: 36px;
+	float: left;
+	padding: 0px;
+	border: 0px;
+}
+
+footer {
+	position: absolute;
+	top: 1245px;
+	width: 100%;
+	margin: 0 0 0 -8px;
+	height: 150px;
+}
+
+.copyright {
+	height: 37px;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+}
+
+.copyright-inner {
+	margin: 0 auto;
+	width: 1024px;
+}
+
+.copyright-inner>p {
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #999;
+	width: 160px;
+	vertical-align: middle;
+	float: left;
+	
+}
+
+.footer-nav {
+	float: right;
+	height: 37px;
+	vertical-align: middle;	
+}
+
+.footer-nav a {
+	position: relative;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #999;
+	text-decoration: none;
+	font-family: engraversgothic_btregular;
+	padding-left: 16px;
+	top: 8px;
+}
+
+.description {
+	width: 1024px;
+	margin: 0 auto;
+	height: 112px;
+}
+
+.envelope {
+	position: relative;
+	width: 20%;
+	height: 42px;
+	background: url(../images/envelope.png) left no-repeat;
+	top: 8px;
+	float: left;
+}
+
+.description-text{
+	position: relative;
+	top: 20px;
+	float: left;
+	width: 60%;
+	font-family: helveticaneuecyrmedium;
+	font-size: 10px;
+	color: #c0c0c0;
+	text-align: center;
+}
+
+.paypal {
+	position: relative;
+	top: 8px;
+	width: 20%;
+	height: 25px;
+	background: url(../images/paypal.png) right no-repeat;
+	float: right;
+}
